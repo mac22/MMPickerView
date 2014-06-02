@@ -248,7 +248,7 @@ NSString * const MMshowsSelectionIndicator = @"showsSelectionIndicator";
 
      //_pickerViewToolBar.tintColor = toolbarBackgroundColor;
   
-    #if __IPHONE_OS_VERSION_MIN_REQUIRED >= 70000
+    #if __IPHONE_7_0
     _pickerViewToolBar.barTintColor = toolbarBackgroundColor;
     #endif
   }
